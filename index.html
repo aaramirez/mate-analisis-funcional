@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="es">
+<head>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KX76XF8R');</script>
+<!-- End Google Tag Manager -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Análisis funcional</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Álgebra lineal en dimensión infinita: espacios de Banach y de Hilbert, operadores acotados, los teoremas de Hahn-Banach, Baire, Banach-Steinhaus, la aplicación abierta y el gráfico cerrado, la dualidad, las bases de Schauder y las topologías débiles.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=JetBrains+Mono:wght@400;600&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400;1,8..60,600&display=swap">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KX76XF8R"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<div class="wrap" data-page="index">
+<header class="topbar"><a class="brand" href="index.html">Análisis <b>funcional</b></a><span class="eyebrow">Curso visual e interactivo · Matemática</span><a class="al-sitio" href="https://aaramirez.github.io/">← Todos los cursos</a></header>
+<div class="layout">
+<nav class="toc" id="toc" aria-label="Ruta de aprendizaje"></nav>
+<main>
+
+<p class="aviso-curado" role="note">El material de Matemática está en proceso de curado: puede tener errores.</p>
+<header class="hero">
+  <span class="eyebrow">Curso visual e interactivo · Matemática</span>
+  <h1>Cuando los vectores son funciones y la dimensión no se acaba</h1>
+  <p class="lede">Una función continua es un punto; una ecuación integral, una ecuación lineal; una serie de Fourier, las coordenadas de un vector. En dimensión infinita casi todo lo que valía en Rⁿ sigue valiendo, pero no todo: la bola deja de ser compacta y la continuidad de un operador lineal deja de ser gratis. Este curso estudia qué sobrevive, con los cinco grandes teoremas demostrados y laboratorios donde se ven las sucesiones que convergen débilmente sin converger.</p>
+</header>
+
+<section>
+  <h2>Cómo usar este curso</h2>
+  <div class="prose">
+    <p><b>Estado.</b> El curso está en preparación. La <a href="temario.html">tabla de contenido</a> ya tiene los 11 capítulos con sus secciones y sus laboratorios, y está en revisión.</p>
+    <p><b>Para quién es.</b> Para quien ya hizo Topología (espacios métricos, compacidad y el teorema de Tijonov), Teoría de la medida (los espacios Lᵖ, Hölder, Minkowski y Riesz-Fischer) y Álgebra lineal avanzada (el espacio dual, los productos internos y Gram-Schmidt en dimensión finita). El lema de Zorn está en Lógica y conjuntos.</p>
+    <p><b>Cómo está hecho.</b> Cada capítulo compara con Rⁿ: qué teorema de dimensión finita se generaliza, qué hipótesis nueva hace falta y qué contraejemplo aparece si se quita. Los laboratorios dibujan funciones como puntos de un espacio: polinomios que aproximan, bases que se van llenando, sucesiones que se escapan al infinito sin dejar de estar en la bola. Las prácticas usan Python con NumPy y SciPy para discretizar operadores y comprobar normas y espectros. Es la materia Análisis Funcional del pensum y el final de la rama de análisis: su lenguaje es el de las ecuaciones en derivadas parciales modernas, la mecánica cuántica y los métodos de núcleos del aprendizaje automático.</p>
+  </div>
+</section>
+
+<details class="stage" id="temario" open><summary><h2><span class="pn">Empieza aquí</span> Tabla de contenido</h2></summary>
+  <div class="mods">
+    <a class="mod" href="temario.html"><span class="n">≡</span><b>Tabla de contenido</b><p>Cada capítulo con sus secciones y sus laboratorios.</p></a>
+  </div>
+</details>
+
+<details class="stage" id="parte-1" open><summary><h2><span class="pn">Parte 1</span> Espacios normados y operadores</h2><span class="cuenta" data-etapa-cuenta="1"></span></summary>
+  <div class="mods">
+    <div class="mod soon" data-id="espacios-normados-y-de-banach"><span class="n">01</span><b>Espacios normados y espacios de Banach</b><p>La norma, la completitud y los ejemplos que recorren el curso: ℓᵖ, c, c₀, C[a, b] y Lᵖ.</p></div>
+    <div class="mod soon" data-id="operadores-acotados"><span class="n">02</span><b>Aplicaciones lineales entre espacios normados</b><p>Continuo equivale a acotado, la norma de un operador y por qué en dimensión finita todo es más fácil.</p></div>
+    <div class="mod soon" data-id="espacios-de-funciones-continuas"><span class="n">03</span><b>Espacios de funciones continuas: Dini, Stone-Weierstrass y Arzelà-Ascoli</b><p>Cuándo una familia de funciones es densa y cuándo es relativamente compacta en C(K).</p></div>
+  </div>
+</details>
+
+<details class="stage" id="parte-2" open><summary><h2><span class="pn">Parte 2</span> Los grandes principios</h2><span class="cuenta" data-etapa-cuenta="2"></span></summary>
+  <div class="mods">
+    <div class="mod soon" data-id="hahn-banach"><span class="n">04</span><b>El teorema de Hahn-Banach</b><p>Extender funcionales sin aumentar la norma y separar convexos con hiperplanos.</p></div>
+    <div class="mod soon" data-id="baire-y-banach-steinhaus"><span class="n">05</span><b>El teorema de Baire y el principio de acotación uniforme</b><p>Un espacio completo no es unión numerable de conjuntos flacos, y de ahí sale la acotación uniforme.</p></div>
+    <div class="mod soon" data-id="aplicacion-abierta-y-grafico-cerrado"><span class="n">06</span><b>La aplicación abierta y el gráfico cerrado</b><p>Una biyección lineal continua entre Banach tiene inversa continua, y un gráfico cerrado basta para la continuidad.</p></div>
+  </div>
+</details>
+
+<details class="stage" id="parte-3" open><summary><h2><span class="pn">Parte 3</span> Dualidad, bases y topologías débiles</h2><span class="cuenta" data-etapa-cuenta="3"></span></summary>
+  <div class="mods">
+    <div class="mod soon" data-id="el-espacio-dual"><span class="n">07</span><b>El espacio dual topológico</b><p>Quién es el dual de cada espacio de la lista, el bidual y los espacios reflexivos.</p></div>
+    <div class="mod soon" data-id="bases-de-schauder"><span class="n">08</span><b>Bases de Schauder</b><p>Bases para escribir cada vector como una serie convergente, sus ejemplos y el problema de la base.</p></div>
+    <div class="mod soon" data-id="topologias-debiles"><span class="n">09</span><b>Topologías débiles y el teorema de Banach-Alaoglu</b><p>Convergencia débil y débil-*, y cómo la bola del dual recupera la compacidad perdida.</p></div>
+  </div>
+</details>
+
+<details class="stage" id="parte-4" open><summary><h2><span class="pn">Parte 4</span> Espacios de Hilbert</h2><span class="cuenta" data-etapa-cuenta="4"></span></summary>
+  <div class="mods">
+    <div class="mod soon" data-id="espacios-de-hilbert"><span class="n">10</span><b>Espacios de Hilbert</b><p>Producto interno completo, proyección ortogonal, representación de Riesz y bases ortonormales.</p></div>
+    <div class="mod soon" data-id="operadores-en-espacios-de-hilbert"><span class="n">11</span><b>Operadores acotados en espacios de Hilbert</b><p>El adjunto, las clases de operadores, las tres topologías de L(H) y el teorema espectral de los operadores compactos autoadjuntos.</p></div>
+  </div>
+</details>
+
+
+
+<nav class="pager" id="pager" aria-label="Capítulo anterior y siguiente"></nav>
+</main>
+</div>
+<footer><span>Curso abierto de aaramirez.github.io.</span><span>Sitio publicado: <a href="https://github.com/aaramirez/mate-analisis-funcional" target="_blank" rel="noopener">github.com/aaramirez/mate-analisis-funcional</a></span></footer>
+</div>
+<script src="assets/lab.js"></script>
+</body>
+</html>
